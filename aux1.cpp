@@ -1,5 +1,6 @@
 #include<time.h>
 #include<stdlib.h>
+#include <iostream>
 
 void RellenarArray(int v[],int num)
 {
@@ -15,13 +16,26 @@ void CopiarArray(int org[],int dest[],int num)
 {
     for(int i=0; i<num; i++)
     {
-        dest[i]=org[i];
+        dest[i] = org[i];
     }
 }
 bool ComprobarArrays(int v1[],int v2[],int num)
 {
     bool resultado=true;
     int i=0;
+    
+    std::cout << "v1[";
+    for (int a = 0 ; a < num; a++) {
+        std::cout << v1[a] << ",";
+    }
+    std::cout << "]" << std::endl;
+
+    std::cout << "v2[";
+    for (int e = 0 ; e < num; e++) {
+        std::cout << v2[e] << ",";
+    }
+    std::cout << "]" << std::endl;
+    
     while (i<num && resultado)
     {
         if(v1[i]!=v2[i]) resultado=false;

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="80">
+<configurationDescriptor version="84">
   <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
@@ -16,9 +16,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>main.cpp</itemPath>
       <itemPath>/Users/dserrano/git/Practica1-EDA/aux1.cpp</itemPath>
-      <itemPath>/Users/dserrano/git/Practica1-EDA/main.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
       <itemPath>/Users/dserrano/git/Practica1-EDA/ordenacion.cpp</itemPath>
       <itemPath>/Users/dserrano/git/Practica1-EDA/test.cpp</itemPath>
       <itemPath>/Users/dserrano/git/Practica1-EDA/tiempo.cpp</itemPath>

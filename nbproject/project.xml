@@ -7,10 +7,77 @@
             <c-extensions/>
             <cpp-extensions>cpp</cpp-extensions>
             <header-extensions/>
-            <make-dep-projects/>
-            <sourceRootList/>
             <header-extensions>h</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
+            <sourceEncoding>UTF-8</sourceEncoding>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <make-dep-projects/>
+            <sourceRootList>
+                <sourceRootElem>/Users/dserrano/git/Practica1-EDA</sourceRootElem>
+            </sourceRootList>
+            <header-extensions>h</header-extensions>
             <make-dep-projects/>
             <sourceRootList>
                 <sourceRootElem>/Users/dserrano/git/Practica1-EDA</sourceRootElem>
@@ -25,7 +92,9 @@
                     <type>1</type>
                 </confElem>
             </confList>
-            <sourceEncoding>UTF-8</sourceEncoding>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
             <header-extensions>h</header-extensions>
             <header-extensions>h</header-extensions>
             <header-extensions>h</header-extensions>

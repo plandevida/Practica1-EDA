@@ -1,3 +1,4 @@
+#include <iostream>
 #include "ordenacion.h"
 
 /* Ordenación por seleccion
@@ -48,8 +49,10 @@ void OrdenacionBurbuja(int v[], int num) {
                 aux = v[j];
                 v[j] = v[j - 1];
                 v[j - 1] = aux;
+                modificado = true;
             }
         }
+        i++;
     }
 }
 
