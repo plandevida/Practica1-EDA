@@ -22,6 +22,7 @@ AS=as
 
 # Macros
 CND_PLATFORM=GNU-MacOSX
+CND_DLIB_EXT=dylib
 CND_CONF=Release
 CND_DISTDIR=dist
 CND_BUILDDIR=build
@@ -34,15 +35,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-<<<<<<< HEAD
-	${OBJECTDIR}/main.o
-=======
-	${OBJECTDIR}/_ext/57853592/main.o \
-	${OBJECTDIR}/_ext/57853592/aux1.o \
-	${OBJECTDIR}/_ext/57853592/test.o \
-	${OBJECTDIR}/_ext/57853592/tiempo.o \
-	${OBJECTDIR}/_ext/57853592/ordenacion.o
->>>>>>> 69f328a402b458efb14891995309c448fb709320
+	${OBJECTDIR}/_ext/131051141/test.o \
+	${OBJECTDIR}/_ext/131051141/tiempo.o \
+	${OBJECTDIR}/main.o \
+	${OBJECTDIR}/_ext/131051141/aux1.o \
+	${OBJECTDIR}/_ext/131051141/ordenacion.o
 
 
 # C Compiler Flags
@@ -69,37 +66,30 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/practica1-eda: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/practica1-eda ${OBJECTFILES} ${LDLIBSOPTIONS} 
 
-<<<<<<< HEAD
+${OBJECTDIR}/_ext/131051141/test.o: /Users/dserrano/git/Practica1-EDA/test.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/131051141
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/131051141/test.o /Users/dserrano/git/Practica1-EDA/test.cpp
+
+${OBJECTDIR}/_ext/131051141/tiempo.o: /Users/dserrano/git/Practica1-EDA/tiempo.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/131051141
+	${RM} $@.d
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/131051141/tiempo.o /Users/dserrano/git/Practica1-EDA/tiempo.cpp
+
 ${OBJECTDIR}/main.o: main.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} $@.d
 	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/main.o main.cpp
-=======
-${OBJECTDIR}/_ext/57853592/main.o: /Volumes/Datos/Estudios/Univerisdad/segundo/Estructura\ de\ datos\ y\ algoritmos/eda/main.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/57853592
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/57853592/main.o /Volumes/Datos/Estudios/Univerisdad/segundo/Estructura\ de\ datos\ y\ algoritmos/eda/main.cpp
 
-${OBJECTDIR}/_ext/57853592/aux1.o: /Volumes/Datos/Estudios/Univerisdad/segundo/Estructura\ de\ datos\ y\ algoritmos/eda/aux1.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/57853592
+${OBJECTDIR}/_ext/131051141/aux1.o: /Users/dserrano/git/Practica1-EDA/aux1.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/131051141
 	${RM} $@.d
-	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/57853592/aux1.o /Volumes/Datos/Estudios/Univerisdad/segundo/Estructura\ de\ datos\ y\ algoritmos/eda/aux1.cpp
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/131051141/aux1.o /Users/dserrano/git/Practica1-EDA/aux1.cpp
 
-${OBJECTDIR}/_ext/57853592/test.o: /Volumes/Datos/Estudios/Univerisdad/segundo/Estructura\ de\ datos\ y\ algoritmos/eda/test.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/57853592
+${OBJECTDIR}/_ext/131051141/ordenacion.o: /Users/dserrano/git/Practica1-EDA/ordenacion.cpp 
+	${MKDIR} -p ${OBJECTDIR}/_ext/131051141
 	${RM} $@.d
-	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/57853592/test.o /Volumes/Datos/Estudios/Univerisdad/segundo/Estructura\ de\ datos\ y\ algoritmos/eda/test.cpp
-
-${OBJECTDIR}/_ext/57853592/tiempo.o: /Volumes/Datos/Estudios/Univerisdad/segundo/Estructura\ de\ datos\ y\ algoritmos/eda/tiempo.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/57853592
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/57853592/tiempo.o /Volumes/Datos/Estudios/Univerisdad/segundo/Estructura\ de\ datos\ y\ algoritmos/eda/tiempo.cpp
-
-${OBJECTDIR}/_ext/57853592/ordenacion.o: /Volumes/Datos/Estudios/Univerisdad/segundo/Estructura\ de\ datos\ y\ algoritmos/eda/ordenacion.cpp 
-	${MKDIR} -p ${OBJECTDIR}/_ext/57853592
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/57853592/ordenacion.o /Volumes/Datos/Estudios/Univerisdad/segundo/Estructura\ de\ datos\ y\ algoritmos/eda/ordenacion.cpp
->>>>>>> 69f328a402b458efb14891995309c448fb709320
+	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/131051141/ordenacion.o /Users/dserrano/git/Practica1-EDA/ordenacion.cpp
 
 # Subprojects
 .build-subprojects:

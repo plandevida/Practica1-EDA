@@ -6,18 +6,15 @@
             <name>Practica1-EDA</name>
             <c-extensions/>
             <cpp-extensions>cpp</cpp-extensions>
-<<<<<<< HEAD
             <header-extensions/>
             <make-dep-projects/>
             <sourceRootList/>
-=======
             <header-extensions>h</header-extensions>
             <sourceEncoding>UTF-8</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList>
-                <sourceRootElem>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda</sourceRootElem>
+                <sourceRootElem>/Users/dserrano/git/Practica1-EDA</sourceRootElem>
             </sourceRootList>
->>>>>>> 69f328a402b458efb14891995309c448fb709320
             <confList>
                 <confElem>
                     <name>Debug</name>
@@ -28,10 +25,11 @@
                     <type>1</type>
                 </confElem>
             </confList>
-<<<<<<< HEAD
             <sourceEncoding>UTF-8</sourceEncoding>
-=======
->>>>>>> 69f328a402b458efb14891995309c448fb709320
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
+            <header-extensions>h</header-extensions>
         </data>
     </configuration>
 </project>

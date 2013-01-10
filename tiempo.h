@@ -1,3 +1,3 @@
-void startCount();
-void finishCount();
-float getTotalCount();
+void startCount(void);
+void finishCount(void);
+float getTotalCount(void);

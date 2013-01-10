@@ -4,13 +4,10 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-<<<<<<< HEAD
-=======
-      <itemPath>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda/aux1.h</itemPath>
-      <itemPath>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda/ordenacion.h</itemPath>
-      <itemPath>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda/test.h</itemPath>
-      <itemPath>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda/tiempo.h</itemPath>
->>>>>>> 69f328a402b458efb14891995309c448fb709320
+      <itemPath>/Users/dserrano/git/Practica1-EDA/aux1.h</itemPath>
+      <itemPath>/Users/dserrano/git/Practica1-EDA/ordenacion.h</itemPath>
+      <itemPath>/Users/dserrano/git/Practica1-EDA/test.h</itemPath>
+      <itemPath>/Users/dserrano/git/Practica1-EDA/tiempo.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -19,15 +16,12 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-<<<<<<< HEAD
       <itemPath>main.cpp</itemPath>
-=======
-      <itemPath>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda/aux1.cpp</itemPath>
-      <itemPath>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda/main.cpp</itemPath>
-      <itemPath>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda/ordenacion.cpp</itemPath>
-      <itemPath>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda/test.cpp</itemPath>
-      <itemPath>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda/tiempo.cpp</itemPath>
->>>>>>> 69f328a402b458efb14891995309c448fb709320
+      <itemPath>/Users/dserrano/git/Practica1-EDA/aux1.cpp</itemPath>
+      <itemPath>/Users/dserrano/git/Practica1-EDA/main.cpp</itemPath>
+      <itemPath>/Users/dserrano/git/Practica1-EDA/ordenacion.cpp</itemPath>
+      <itemPath>/Users/dserrano/git/Practica1-EDA/test.cpp</itemPath>
+      <itemPath>/Users/dserrano/git/Practica1-EDA/tiempo.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -41,12 +35,9 @@
       <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
-<<<<<<< HEAD
-=======
   <sourceRootList>
-    <Elem>/Volumes/Datos/Estudios/Univerisdad/segundo/Estructura de datos y algoritmos/eda</Elem>
+    <Elem>/Users/dserrano/git/Practica1-EDA</Elem>
   </sourceRootList>
->>>>>>> 69f328a402b458efb14891995309c448fb709320
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="1">
@@ -55,15 +46,12 @@
         <compilerSet>default</compilerSet>
       </toolsSet>
       <compileType>
-<<<<<<< HEAD
-=======
         <cTool>
           <commandlineTool>gcc</commandlineTool>
         </cTool>
         <ccTool>
           <commandlineTool>g++</commandlineTool>
         </ccTool>
->>>>>>> 69f328a402b458efb14891995309c448fb709320
       </compileType>
     </conf>
     <conf name="Release" type="1">

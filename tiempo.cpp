@@ -14,8 +14,8 @@ void finishCount() {
     tiempoFinal = clock();
 }
 
-float getTotalTime() {
-    tiempoTotal = ((float) tiempoInicio - tiempoFinal) / CLOCKS_PER_SEC;
-    
+float getTotalCount() {
+    tiempoTotal = ((float) tiempoFinal - tiempoInicio) / CLOCKS_PER_SEC;
+
     return tiempoTotal;
 }
