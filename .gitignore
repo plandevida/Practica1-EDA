@@ -12,3 +12,5 @@
 *.la
 *.a
 /dist/
+/build/
+.DS_STORE
