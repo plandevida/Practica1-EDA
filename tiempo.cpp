@@ -16,6 +16,5 @@ void finishCount() {
 
 float getTotalCount() {
     tiempoTotal = ((float) tiempoFinal - tiempoInicio) / CLOCKS_PER_SEC;
-
     return tiempoTotal;
 }

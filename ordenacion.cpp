@@ -56,7 +56,7 @@ void OrdenacionBurbuja(int v[], int num) {
     }
 }
 
-void particion(int v[], int a, int b, int p) {
+void particion(int v[], int a, int b, int &p) {
     int i, j;
     int aux;
     i = a + 1;

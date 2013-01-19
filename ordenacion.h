@@ -1,3 +1,5 @@
+#ifndef ORDENACION_H
+#define ORDENACION_H
 /*
  *  Ordenación por seleccion
  *  Consiste en buscar el elemento menor de la lista y colocarlo en la primera posicion
@@ -8,3 +10,4 @@ void OrdenacionInsercion(int v[],int num);
 void OrdenacionBurbuja(int v[],int num);
 void OrdenacionQuickSort(int v[],int num);
 void OrdenacionMergeSort(int v[],int num);
+#endif
