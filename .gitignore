@@ -13,4 +13,5 @@
 *.a
 /dist/
 /build/
+/nbproject/
 .DS_STORE
