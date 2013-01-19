@@ -70,6 +70,12 @@ bool ComprobarOrdenado(int v[],int num)
     return resultado;
 }
 
+/**
+ * Crea varios verctores para ser ordenados por todos los algoritmos de
+ * ordenación que están en el fichero ordenacion.cpp/h.
+ * Comprueba que estos vectores hayan quedado ordenados correctamente
+ * y calcula el tiempo que tarda cada algoritmo en hacerlo.
+ */
 void IniciarTest(int num)
 {
       int tam = num;
