@@ -1,9 +1,20 @@
+/**
+ * Módulo que contiene funciones para ordenar vectores,
+ * por selección, inserción, burbuja, quick sort y merge sort.
+ * 
+ * autor: Juan Luis Pérez Valbuena
+ * autor: Daniel Serrano Torres
+ */
+
 #include <iostream>
 #include "ordenacion.h"
 
-/* Ordenación por seleccion
-Consiste en buscar el elemento menor de la lista y colocarlo en la primera posicion
-Se reitera el proceso hasta recorrer toda la lista y dejarla ordenada.*/
+/* 
+ * Ordenación por seleccion
+ * Consiste en buscar el elemento menor de la lista y 
+ * colocarlo en la primera posicion
+ * Se reitera el proceso hasta recorrer toda la lista y dejarla ordenada.
+ */
 void OrdenacionSeleccion(int v[], int num) {
     int i, j, menor, aux;
 
@@ -21,6 +32,11 @@ void OrdenacionSeleccion(int v[], int num) {
     }
 }
 
+/**
+ * Ordenación por inserción.
+ * Consiste en recorrer el vercor he ir insertando cada
+ * elemento en la posición correcta donde estará ordenado.
+ */
 void OrdenacionInsercion(int v[], int num) {
     int i, j, x;
 
@@ -36,6 +52,12 @@ void OrdenacionInsercion(int v[], int num) {
     }
 }
 
+/**
+ * Ordenación por el método de la burbuja
+ * Funciona revisando cada elemento de la lista
+ * que va a ser ordenada con el siguiente, 
+ * intercambiándolos de posición si están en el orden equivocado.
+ */
 void OrdenacionBurbuja(int v[], int num) {
     int i = 0, j, aux;
 
@@ -56,7 +78,12 @@ void OrdenacionBurbuja(int v[], int num) {
     }
 }
 
-void particion(int v[], int a, int b, int p) {
+/**
+ * A partir de un elemento del vector se distribuyen los elementos
+ * menoresa a este a su izquierda y los mayores
+ * a su derecha.
+ */
+void particion(int v[], int a, int b, int &p) {
     int i, j;
     int aux;
     i = a + 1;
@@ -79,6 +106,9 @@ void particion(int v[], int a, int b, int p) {
     v[p] = aux;
 }
 
+/**
+ * Implementación privada del quick sort.
+ */
 void quickSort(int v[], int a, int b) {
     int p;
 
@@ -89,10 +119,21 @@ void quickSort(int v[], int a, int b) {
     }
 }
 
+/**
+ * Ordenación por quick sort
+ * Consiste en obtener un pivote de una verctor
+ * y poner los números menores del pivote a su
+ * izquierda y los mayores a su derecha. He ir
+ * ordenando los elementos de la izquierda y
+ * derecha del pivote recursivamente.
+ */
 void OrdenacionQuickSort(int v[], int num) {
     quickSort(v, 0, num - 1);
 }
 
+/**
+ * Mezcla dos vectores de forma ordenada.
+ */
 void mezcla(int v[], int a, int m, int b) {
     int *u = new int[b - a + 1];
     int i, j, k;
@@ -123,6 +164,9 @@ void mezcla(int v[], int a, int m, int b) {
     delete[] u;
 }
 
+/**
+ * Implenetación privada del merge sort
+ */
 void mergeSort(int v[], int a, int b) {
     int m;
     if (a < b) {
@@ -133,6 +177,12 @@ void mergeSort(int v[], int a, int b) {
     }
 }
 
+/**
+ * Ordenación por merge sort
+ * Consiste en partir el vercor en dos he ir ordenando
+ * recursivamente las dos mitades, y después se mezclan
+ * ordenadamente.
+ */
 void OrdenacionMergeSort(int v[], int num) {
     mergeSort(v, 0, num - 1);
 }
